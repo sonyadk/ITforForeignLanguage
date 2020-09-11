@@ -1,0 +1,12 @@
+  Задание 3. Создание кнопочек, по нажатию на которые запускается аудио
+  
+  Для просмотра кода открыть ссылку: https://repl.it/@sonyadk/ITbutton#index.html
+  
+  <html>
+    <audio  id="sound1" src="https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/com/compu/computer__gb_2.mp3">
+    </audio> <button onclick="document.getElementById('sound1').play()">computer /kəmˈpjuːtə(r)/ </button>
+    <audio  id="sound2" src="https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/progr/programming__us_1.mp3">
+    </audio> <button onclick="document.getElementById('sound2').play()">programming /ˈprəʊɡræmɪŋ/</button>
+    <audio  id="sound3" src="https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/art/artif/artificial_intelligence_1_gb_1.mp3">
+    </audio> <button onclick="document.getElementById('sound3').play()">artificial intelligence /ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/</button>
+  </html>
